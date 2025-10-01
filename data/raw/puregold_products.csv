@@ -1,0 +1,17 @@
+ProductID,ProductName,Price,Quantity,Category
+PG001,Soda 1L,50.00,100,Beverages
+PG002,Soap-100g,25.50,200,Health & Beauty
+PG003,Milk Powder 500 G,"150,00",50,Dairy
+PG004,Canned Tuna 155g,30.25,150,Canned Goods
+PG005,Instant Noodles,10.00,300,Groceries
+PG001,Soda 1L,50.00,50,beverages
+PG006,Shampoo 200ml,75.75,80,Health & Beauty
+PG007,Coffee 3-in-1,"8,50",250,beverages
+PG008,Cooking Oil 1L,90.00,120,Groceries
+PG009,Diapers M-size,120.00,60,Baby Care
+PG010,Biscuits 10-pack,45.50,180,Snacks
+PG011,Toothpaste 150g,60.00,100,health & beauty
+PG012,Vinegar 1L,22.75,130,Condiments
+PG013,Soy Sauce 1L,28.00,140,Condiments
+PG014,Detergent 1kg,"140,50",70,Household
+PG015,Cereal 300g,110.00,90,Breakfast

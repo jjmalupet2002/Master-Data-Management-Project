@@ -1,0 +1,17 @@
+{
+  "puregold": {
+    "product_code": "ProductID",
+    "product_name": "ProductName",
+    "price": "Price",
+    "quantity": "Quantity",
+    "category": "Category"
+  },
+  "savemore": {
+    "product_code": "ItemCode",
+    "product_name": "ItemDesc",
+    "price": "UnitPrice",
+    "quantity": "Qty",
+    "category": "Dept",
+    "supplier_name": "SupplierName"
+  }
+}

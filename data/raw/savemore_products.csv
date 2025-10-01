@@ -1,0 +1,16 @@
+ItemCode,ItemDesc,UnitPrice,Qty,Dept,SupplierName
+SM001,Soft Drink 1000ml,₱50.00,100,BEVERAGES,Supplier A
+SM002,Bar Soap 100g,₱25.50,,Health/Beauty,Supplier B
+SM003,Powdered Milk 500g,₱150.00,50,DAIRY,Supplier C
+SM004,Tuna Flakes in Oil 155g,₱30.25,150,CANNED,Supplier D
+SM005,Noodles Pack,₱10.00,300,GROCERY,Supplier E
+SM006,Anti-Dandruff Shampoo 200ml,₱75.75,80,Health/Beauty,Supplier B
+SM007,3-in-1 Coffee Mix,₱8.50,250,BEVERAGES,Supplier F
+SM008,Vegetable Oil 1L,₱90.00,,GROCERY,Supplier G
+SM009,Baby Diapers (M),₱120.00,60,Baby,Supplier H
+SM010,Cracker Biscuits 10x25g,₱45.50,180,SNACKS,Supplier I
+SM011,Fluoride Toothpaste 150g,₱60.00,100,Health/Beauty,Supplier B
+SM012,White Vinegar 1000ml,₱22.75,130,CONDIMENTS,Supplier J
+SM013,Classic Soy Sauce 1L,₱28.00,140,CONDIMENTS,Supplier J
+SM014,Laundry Powder 1000g,₱140.50,70,HOUSEHOLD,Supplier K
+SM015,Corn Flakes Cereal 300g,₱110.00,,Breakfast,Supplier L
