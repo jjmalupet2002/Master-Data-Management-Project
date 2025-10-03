@@ -19,10 +19,14 @@ async function deduplicate(cleanedProducts) {
 
     // 1. Get the newly inserted products with their IDs
     const productCodes = cleanedProducts.map(p => p.product_code);
+    console.log(`Deduplication: Searching for ${productCodes.length} products in the database.`); // <-- ADDED LOG
+
     const [newProducts] = await connection.execute(
       'SELECT id, product_code, product_name FROM products WHERE product_code IN (?)',
       [productCodes]
     );
+
+    console.log(`Deduplication: Found ${newProducts.length} products in the database.`); // <-- ADDED LOG
 
     if (newProducts.length < 2) {
         console.log('Not enough new products to compare for duplicates.');

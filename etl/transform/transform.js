@@ -27,9 +27,9 @@ function transform(data) {
     }
 
     if (!rejectionReason) {
-        // Clean price field by removing currency symbols and commas
+        // Clean price field: remove currency symbol, then replace comma with period for decimals
         if (typeof price === 'string') {
-            price = price.replace(/[₱,]/g, '');
+            price = price.replace('₱', '').replace(',', '.');
         }
 
         if (!product_code) {
