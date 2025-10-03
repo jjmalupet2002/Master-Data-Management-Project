@@ -21,7 +21,7 @@ async function deduplicate(cleanedProducts) {
     const productCodes = cleanedProducts.map(p => p.product_code);
     console.log(`Deduplication: Searching for ${productCodes.length} products in the database.`); // <-- ADDED LOG
 
-    const [newProducts] = await connection.execute(
+    const [newProducts] = await connection.query(
       'SELECT id, product_code, product_name FROM products WHERE product_code IN (?)',
       [productCodes]
     );
