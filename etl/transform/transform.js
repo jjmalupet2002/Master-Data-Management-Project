@@ -48,7 +48,7 @@ function transform(data) {
     }
 
     if (rejectionReason) {
-      rejected.push({ ...record, reason: rejectionReason });
+      rejected.push({ ...record, reason_for_rejection: rejectionReason });
     } else {
       cleaned.push({
         product_code,

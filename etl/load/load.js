@@ -24,10 +24,10 @@ async function load({ cleaned, rejected }) {
         record.Category || null,
         record.supplier_name || null,
         record.source || null,
-        record.reason || null
+        record.reason_for_rejection || null
       ]);
       await connection.query(
-        'INSERT INTO rejected_records (product_code, product_name, price, quantity, category, supplier_name, source, reason) VALUES ?',
+        'INSERT INTO rejected_records (product_code, product_name, price, quantity, category, supplier_name, source, reason_for_rejection) VALUES ?',
         [rejectedValues]
       );
       console.log(`Loaded ${rejected.length} records into the 'rejected_records' table.`);
