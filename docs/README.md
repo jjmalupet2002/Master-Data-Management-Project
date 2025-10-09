@@ -46,7 +46,7 @@ The entire application stack (API, ETL, Database) is containerized using Docker 
 This command builds the images if they don't exist, starts the `db` and `api` services, and begins watching for file changes.
 
 ```bash
-docker compose watch
+docker compose up --watch
 ```
 
 The API will be available at `http://localhost:3000`.
